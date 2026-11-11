@@ -2,14 +2,14 @@
 
 Dashboard interactivo para el análisis cuantitativo y técnico de activos del mercado bursátil chileno (IPSA), desarrollado con **Streamlit**, **yfinance** y **Plotly**.
 
-## 🚀 Características
+## Características
 - **Ingesta de Datos:** Descarga histórica directa desde Yahoo Finance para activos locales (`SQM-B.SN`, `BSANTANDER.SN`, `CENCOSUD.SN`, `CHILE.SN`).
 - **Análisis Técnico Modular:**
   - Medias Móviles Simples: **SMA 20** y **SMA 50**.
   - Índice de Fuerza Relativa: **RSI 14** con niveles clave de sobrecompra (70) y sobreventa (30).
 - **Visualización Interactiva:** Gráficos responsivos de dos paneles con soporte de zoom y tooltips mediante Plotly.
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 ```text
 chile-quant-zoomcamp/
 ├── data/                  # Datos históricos descargados
@@ -22,7 +22,7 @@ chile-quant-zoomcamp/
 └── README.md              # Documentación del proyecto
 ```
 
-## 🛠️ Instalación y Uso
+## Instalación y Uso
 
 ### 1. Clonar el repositorio y entrar al directorio
 ```bash
@@ -46,3 +46,10 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+
+## 5. Agradecimientos
+Inspirado en la estructura y metodología del repositorio [Stock Markets Analytics Zoomcamp](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp) de DataTalks.Club.
+
+---
+## Autor
+Desarrollado por [MrArbol](https://github.com/MrArbol).
