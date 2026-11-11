@@ -1,0 +1,22 @@
+# Entorno virtual (¡NUNCA subir a GitHub!)
+venv/
+.venv/
+env/
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Datos descargados (opcional si son temporales/pesados)
+data/*.csv
+!data/.gitkeep
+
+# IDEs y editores
+.vscode/
+.idea/
+
+# Sistema operativo
+Thumbs.db
+Desktop.ini
+.DS_Store
